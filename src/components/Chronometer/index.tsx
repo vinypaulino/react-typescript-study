@@ -8,7 +8,7 @@ export function Chronometer() {
             <div className={style.chronometer}>
                 <p className={style.title}> Escolha um card e inicie o cronômetro </p>
 
-                <div className={style.clockwrapper}>
+                <div className={style.clockWrapper}>
                     <Clock/>
                 </div>
                 <Button>
